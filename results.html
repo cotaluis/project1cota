@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/foundation.css">
+  <link rel="stylesheet" href="assets/css/foundation.min.css">
+  <link rel="stylesheet" href="assets/images/">
+  <title>Musclerator results</title>
+</head>
+
+<body>
+  <h1>Results</h1>
+  <p>
+    Based on your one rep maxes, here is your recommended workout.
+  </p>
+  <table id="resultsTable" class="hover" style="justify-content: center" style="text-align: center">
+    <thead>
+      <tr>
+        <th width="150">Exercises</th>
+        <th width="220">Reps</th>
+        <th width="150">Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bench</td>
+        <td>3 x 10</td>
+        <td id="benchResults">Weight goes here</td>
+      </tr>
+      <tr>
+        <td>Squat</td>
+        <td>3 x 10</td>
+        <td id="squatResults"> Weight goes here</td>
+      </tr>
+      <tr>
+        <td>Deadlift</td>
+        <td>3 x 10</td>
+        <td id="deadliftResults">Weight goes here</td>
+      </tr>
+      <tr>
+        <td>Overhead Press</td>
+        <td>3 x 10</td>
+        <td id="pressResults">Weight goes here</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="callout primary" id="video">
+    <p>View the following video for tips and pointers.</p>
+    <center><iframe width="420" height="315" src="https://www.youtube.com/embed/EKUNGQ4LmH8?">
+    </iframe></center>
+  </div>
+  <div id="exerciseExamples" style="text-align: center">See below for additional exercises.</div>
+
+  <h3>BE LIKE ARNOLD! WORK TOWARDS YOUR FITNESS GOALS!</h3>
+  <img src="./assets/images/arnold-pose.jpeg" alt="arnold pose" class="center" style="padding-top: .25dvh" width="500" height="600">
+</body>
+
+<script src="./assets/js/results.js"></script>
+
+</html>
