@@ -1,0 +1,71 @@
+header {
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+
+    justify-content: center;
+    color: #fff
+}
+
+main {
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+    border: 5px solid black;
+    background-color: #3790c7;
+    padding: 50px auto;
+    justify-content: center;
+    color: #fff
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #3790c7;
+    border: 5px black;
+    padding: 25px auto;
+    margin: 15px auto;
+}
+
+form {
+    color: #fff;
+}
+
+a:hover {
+    background-color: black;
+}
+
+input {
+    text-align: center
+}
+
+
+thead {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 5dvh;
+}
+
+#exerciseExamples {
+    background-color: #3790c7;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
